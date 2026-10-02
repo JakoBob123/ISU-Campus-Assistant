@@ -4,8 +4,6 @@ A retrieval-augmented generation (RAG) prototype that answers questions about **
 University courses, billing, housing and dining**. Answers are grounded in the university's own
 course catalog and websites, and every answer links back to the page it came from.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/isu-campus-assistant/blob/main/notebooks/ISU-CampusAssistant-RAG-Demo.ipynb)
-
 <!-- Replace YOUR-USERNAME in the badge above with your GitHub username.
      To show a screenshot, save one as assets/screenshot.png and uncomment the next line. -->
 <!-- ![ISU Campus Assistant](assets/screenshot.png) -->
