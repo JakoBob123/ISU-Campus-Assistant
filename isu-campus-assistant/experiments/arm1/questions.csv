@@ -1,0 +1,51 @@
+id,category,question,rule
+C01,course code,What are the prerequisites for IT 214?,course IT214
+C02,course code,What is IT 140 about?,course IT140
+C03,course code,How many credit hours is IT 150?,course IT150
+C04,course code,What's the difference between IT 354 and IT 454?,course IT354 or IT454
+C05,course code,Describe TEC 283.,course TEC283
+C06,course code,What does CTK303 cover?,course CTK303
+C07,course code,what is com 110,course COM110
+C08,course code,Tell me about ENG 101.,course ENG101
+C09,course code,What is IT-344 about?,course IT344
+C10,course code,Is MAT 120 an undergraduate or graduate course?,course MAT120
+T01,course topic,Which courses teach web application development?,courses chunk containing: web application
+T02,course topic,Are there classes about the ethics of technology?,courses chunk containing: ethical / ethics
+T03,course topic,What courses cover machine learning or artificial intelligence?,courses chunk containing: machine learning / artificial intelligence
+T04,course topic,I want a class about protecting networks from hackers.,courses chunk containing: security / cybersecurity
+T05,course topic,Which courses teach database design?,courses chunk containing: database
+T06,course topic,Are there courses on digital imaging?,courses chunk containing: imaging
+T07,course topic,Is there a class that teaches spreadsheets and word processing?,courses chunk containing: spreadsheet / word processing
+T08,course topic,What statistics courses can I take?,courses chunk containing: statistic
+T09,course topic,Classes about teaching children to read,courses chunk containing: literacy / reading instruction / teaching reading / teaching of reading
+T10,course topic,Are there courses on public speaking?,courses chunk containing: public speaking / oral communication
+B01,billing,How do I sign up for a payment plan?,billing chunk containing: payment plan
+B02,billing,When will I get my refund?,billing chunk containing: refund
+B03,billing,How do I set up direct deposit for my refund?,billing chunk containing: erefund / direct deposit
+B04,billing,Can my parents see my bill and pay it for me?,billing chunk containing: authorized user
+B05,billing,Can I pay tuition with a credit card?,billing chunk containing: credit card
+B06,billing,Where do I find my 1098-T tax form?,billing chunk containing: 1098-t / 1098t
+B07,billing,What happens if my tuition payment is late?,billing chunk containing: late charge / late fee / delinquent
+B08,billing,Why was I charged for student health insurance?,billing chunk containing: health insurance
+H01,housing,Do first-year students have to live on campus?,housing chunk containing: first two years / live-on / live on campus / required to live
+H02,housing,What happens if I cancel my housing contract?,housing chunk containing: cancel
+H03,housing,What residence halls are there at ISU?,housing chunk containing: watterson / hewett / manchester / tri-towers / tri towers / wilkins / haynie
+H04,housing,Tell me about Watterson Towers.,housing chunk containing: watterson
+H05,housing,Who lives in Cardinal Court?,housing chunk containing: cardinal court
+H06,housing,When is the priority deadline for the housing application?,housing chunk containing: priority
+H07,housing,Is laundry free in the residence halls?,housing chunk containing: laundry / washer
+H08,housing,Can I live on campus over the summer?,housing chunk containing: summer housing / summer
+D01,dining,What meal plans are available?,dining chunk containing: meal plan
+D02,dining,Do I have to buy a meal plan if I live in a residence hall?,dining chunk containing: required to purchase / required
+D03,dining,What are Flex Dollars?,dining chunk containing: flex dollars / flex
+D04,dining,Where can I eat in the Bone Student Center?,dining chunk containing: bone student center / mcalister / qdoba / timbers / the landing
+D05,dining,Where can I find allergen information for dining hall food?,dining chunk containing: allergen / netnutrition
+D06,dining,Can my parents eat in the dining halls for free?,dining chunk containing: parent
+D07,dining,Can I talk to a dietitian about my diet?,dining chunk containing: dietitian
+D08,dining,What meal plans are there for students who live off campus?,dining chunk containing: block / off-campus / off campus
+X01,trap,What are the prerequisites for IT 999?,trap: says IT 999 is not in the catalog
+X02,trap,What is my current account balance?,trap: says it cannot see accounts; points to the billing portal
+X03,trap,What room am I assigned to next semester?,trap: says it cannot see assignments; points to the housing portal
+X04,trap,How much will the 7-Day Unlimited meal plan cost in 2031?,trap: does not invent a 2031 price
+X05,trap,Who won the Redbirds football game last weekend?,trap: says this is outside what it knows
+X06,trap,Tell me about Skyline Towers residence hall.,trap: says there is no such hall in its sources
