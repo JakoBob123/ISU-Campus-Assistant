@@ -1,0 +1,22 @@
+# ReggieBot (Ollama edition) - Python packages
+# Install into the Python you run the notebook with:   pip install -r requirements.txt
+# (or just Run All: section 0 of the notebook runs this install for you)
+#
+# Ollama itself is a separate app, not a pip package: https://ollama.com/download
+
+gradio>=4.0                # the ReggieBot chat app; tested with 6.30
+rank-bm25                  # BM25 keyword search
+sentence-transformers      # MiniLM embeddings (installs PyTorch)
+chromadb                   # the vector database
+scikit-learn               # TF-IDF fallback if MiniLM cannot load
+numpy
+pandas
+requests                   # catalog API, website crawl and Ollama's HTTP API
+beautifulsoup4             # turning web pages into text
+lxml
+trafilatura                # fallback text extractor for thin pages
+huggingface_hub            # optional: publish the corpus (section 12)
+python-dotenv              # reads .env
+ipywidgets                 # the grading form (section 13)
+openpyxl                   # reading Excel grade sheets (section 13)
+ipykernel                  # lets VS Code / Jupyter run the notebook with this Python
