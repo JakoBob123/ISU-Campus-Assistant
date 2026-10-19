@@ -1,0 +1,20 @@
+# Secrets - real API keys and passwords live here. Never commit it; .env.example is the template.
+.env
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Gradio's local cache
+.gradio/
+flagged/
+
+# Saved data: the crawler rebuilds it on the first run (notebook section 9), and the vector
+# database alone is ~57 MB. Only the experiment results are kept, as evidence of the evaluation.
+isu_catalog_cache/*
+!isu_catalog_cache/experiments/
+isu_catalog_cache/experiments/*.zip
+chroma_working_copy/
