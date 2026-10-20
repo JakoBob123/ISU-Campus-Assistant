@@ -9,7 +9,7 @@ only ISU's own course catalog and websites, and puts links to the source pages u
   [Ollama](https://ollama.com).
 - **Cost:** no API key, no quota and no per-question cost.
 
-Shared link: https://e4947363bbd6a4113a.gradio.live/
+Shared link: https://b477e03532460743a9.gradio.live/
 
 Everything is in one notebook, `ISU-CampusAssistant-RAG-Ollama.ipynb`:
 
