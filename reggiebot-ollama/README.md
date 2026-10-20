@@ -507,7 +507,7 @@ After that, answering questions needs no internet.
 To refresh the data later, tick `REFRESH_DATA` in §9 and run that cell. Only the chunks that changed are
 re-embedded.
 
-## 8. Deploy for 5 to 15 users (extra credit)
+## 8. Deploy for 5 to 15 users
 
 The app runs on your computer. A Gradio share link gives testers a public `https://….gradio.live` address that
 tunnels to it. A password keeps it to the people you invite, and a queue makes them take turns on the one GPU.
