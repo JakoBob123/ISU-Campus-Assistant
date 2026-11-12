@@ -144,11 +144,9 @@ Things Google requires or checks:
 | The app's build files and the Space folder | `D:\tools\AndroidTools\builds` |
 | The upload key (after §7) | `D:\tools\AndroidTools\keys` |
 
-- **Everything big is on D:,** because C: is nearly full.
 - **No Android Studio:** it isn't needed; everything runs from the notebook or the `.bat` files.
 - **Emulator driver:** the emulator uses Google's Android Emulator hypervisor driver. To remove it, run
   `D:\tools\AndroidTools\sdk\extras\google\Android_Emulator_Hypervisor_Driver\silent_install.bat -u` as administrator.
-- **VS Code:** `.vscode/settings.json` stops VS Code's Java extensions from building `android_app/` on their own,
-  which would fill C:.
+- **VS Code:** `.vscode/settings.json` stops VS Code's Java extensions from building `android_app/`.
 - **Versions:** Android Gradle Plugin 8.13.2, Kotlin 2.2.21, Jetpack Compose BOM 2025.10.01, Gradle 8.14.3, Java
   17.0.21. They are proven releases rather than the newest.
