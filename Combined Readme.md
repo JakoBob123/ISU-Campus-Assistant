@@ -652,21 +652,6 @@ whether it's always 3, or what the limit is for logged-in users.
 
 ---
 
-## Known issues and next steps
-
-- **Manual grading** of the Arm 1 answers and of the blind Gemini vs Ollama comparison still needs to be done.
-- **The free Space only gives about 3 answers a day** to someone who isn't logged in. If a lot of people are going to
-  use the app, the server needs paid hardware or a different host.
-- **I still need to check whether the daily limit is per connection or shared.** To test it, ask one question from a
-  phone on mobile data right after the limit gets hit on Wi-Fi.
-- **The first Space (`Campus_Assistant`)** was uploaded before the November 6 changes, so it doesn't have the exact
-  search or the cleanups until it gets rebuilt and uploaded again.
-- **The RLHF notebook needs more ratings,** especially on questions where the longer answer is actually better.
-- **The Arm 1 evaluation code** is still in the notebook. It could be moved into `reggiebot/evaluate.py`.
-- **Publish the app on Google Play,** after checking with my instructor about using ISU's name and colors.
-
----
-
 ## Running each version
 
 - **Ollama version:** start Ollama, open `ISU-CampusAssistant-RAG-Ollama.ipynb`, pick the `.venv` kernel, then
