@@ -86,7 +86,7 @@ notebook both use the `reggiebot/` package, so a change to the code or the setti
 
 | To | Double-click | Or in a terminal |
 |---|---|---|
-| Start, on this PC only | `start_reggiebot.bat` | `python app.py` |
+| Start, on my PC only | `start_reggiebot.bat` | `python app.py` |
 | Start with a public link for testers | `share_reggiebot.bat` | `python app.py --share` |
 | Start in test mode (fake answers, no Ollama) | `start_test_mode.bat` | `python app.py --fake` |
 | Stop | `stop_reggiebot.bat`, or close the app's window | `python app.py --stop` |
