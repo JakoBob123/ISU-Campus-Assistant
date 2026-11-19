@@ -175,10 +175,6 @@ Here's the short version:
 5. **Answer.** Gemma 4 gets the top 8 chunks and a prompt that tells it to only use those and to say so when the answer
    isn't there. The answer streams back into the chat with source links under it.
 
-The notebook's **Design** section has the full write-up: which components are **pre-determined** (they touch every
-question) and which are **probabilistic** (only in certain situations), a cell that traces the route of any question,
-the architecture diagram, the feature lists and the edge cases.
-
 ### Components at a glance
 
 | Pre-determined (every question) | Probabilistic (only when triggered) |
@@ -189,7 +185,7 @@ the architecture diagram, the feature lists and the edge cases.
 
 ## Features
 
-**Must-have (delivered)**
+**Delivered Must Haves**
 
 1. Grounded answers about ISU courses, billing, housing and dining, using only ISU's own data
 2. Hybrid retrieval: BM25 + vector search, rank fusion, course-code pin, section router
@@ -207,10 +203,11 @@ the architecture diagram, the feature lists and the edge cases.
 1. Thumbs up / down feedback in the chat, saved for evaluation
 2. A prerequisite planner that can reason through prerequisite chains
 3. Always-on hosting with a nightly refresh
+4. Haveing an upload feature
 
 ---
 
-## Where it won't answer
+## What it won't answer
 
 Courses that don't exist, anything behind a login (balances, housing assignments, grades), live registration data
 (open seats, times, instructors), future or unpublished prices, off-topic questions, prerequisite-chain reasoning, and
@@ -292,7 +289,7 @@ grading.
 - Settings: `OLLAMA_MODEL = "gemma4:12b"`, `OLLAMA_CONTEXT = 8192` tokens (Ollama's default can be too small, and it
   cuts the prompt off without telling you), `OLLAMA_KEEP_ALIVE = "30m"` and `OLLAMA_TIMEOUT = 300` s. I turned
   "thinking" off so the model just answers directly. Temperature is still 0.2.
-- If Ollama isn't running or the model isn't downloaded, the chat shows the matching catalog entries with a short
+- If Ollama isn't running or the model is not downloaded, the chat shows the matching catalog entries with a short
   explanation instead of an error. Once Ollama is back, it reconnects by itself.
 - `ollama_report()` replaces `gemini_report()`. It checks that Ollama is running, that the model is downloaded, that it
   actually answers, and how much of it fits in GPU memory.
@@ -605,10 +602,9 @@ to a server on my PC that answers with Gemma 4 through Ollama, so the answers ar
 
 The notebook also builds the signed `.aab` for Google Play and writes the store listing materials (`listing.md`,
 `data-safety.md`, `content-rating.md`, the icon and the feature graphic) into `android_app/store/`. The fastest way to
-get it to people is Internal testing in the Play Console (up to 100 testers). Since it uses ISU's name, I need to check
-with my instructor or ISU before publishing it publicly.
+get it to people is Internal testing in the Play Console (up to 100 testers).
 
-The full step-by-step setup is in `README-Android-app.md`.
+The setup is in `README-Android-app.md`.
 
 ---
 
