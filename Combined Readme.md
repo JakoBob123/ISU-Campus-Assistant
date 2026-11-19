@@ -198,7 +198,7 @@ Here's the short version:
 9. Built-in evaluation: retrieval and answer metrics, manual grading, and a speed and cost report
 10. Limited public sharing: a link, a waiting line and an anonymous usage count
 
-**Top 3 nice-to-have**
+**Top 4 Future Updates**
 
 1. Thumbs up / down feedback in the chat, saved for evaluation
 2. A prerequisite planner that can reason through prerequisite chains
